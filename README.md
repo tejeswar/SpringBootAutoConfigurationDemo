@@ -6,3 +6,6 @@ Below is the video url link where I have explained it clearly where I have shown
 https://drive.google.com/open?id=1qFelWFdhVgEjrlqxtE5JHBUC_IdfuvHa
 
 Google-Vid/AutoConfiguration
+
+It also demonstrated the circular dependency and spring bean life cycle concept in details
+
