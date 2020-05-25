@@ -1,0 +1,36 @@
+# Logfile created on 2020-04-14 22:31:44 +0000 by logger.rb/47272
+A, [2020-04-14T22:31:44.279638 #2755]   ANY -- : healthd daemon 1.0.3 initialized
+W, [2020-04-14T22:31:44.344495 #2755]  WARN -- : log file "/var/log/nginx/healthd/application.log.2020-04-14-22" does not exist
+W, [2020-04-14T22:31:49.344733 #2755]  WARN -- : log file "/var/log/nginx/healthd/application.log.2020-04-14-22" does not exist
+W, [2020-04-14T22:31:54.345446 #2755]  WARN -- : log file "/var/log/nginx/healthd/application.log.2020-04-14-22" does not exist
+W, [2020-04-14T22:31:59.345727 #2755]  WARN -- : log file "/var/log/nginx/healthd/application.log.2020-04-14-22" does not exist
+W, [2020-04-14T22:32:04.160131 #2755]  WARN -- : log file "/var/log/nginx/healthd/application.log.2020-04-14-22" does not exist
+W, [2020-04-14T22:32:09.160453 #2755]  WARN -- : log file "/var/log/nginx/healthd/application.log.2020-04-14-22" does not exist
+W, [2020-04-14T22:32:14.160763 #2755]  WARN -- : log file "/var/log/nginx/healthd/application.log.2020-04-14-22" does not exist
+A, [2020-04-14T22:32:21.463010 #3616]   ANY -- : healthd daemon 1.0.3 initialized
+W, [2020-04-14T22:32:21.614582 #3616]  WARN -- : log file "/var/log/httpd/healthd/application.log.2020-04-14-22" does not exist
+W, [2020-04-14T22:32:26.614846 #3616]  WARN -- : log file "/var/log/httpd/healthd/application.log.2020-04-14-22" does not exist
+W, [2020-04-14T22:32:31.617739 #3616]  WARN -- : log file "/var/log/httpd/healthd/application.log.2020-04-14-22" does not exist
+W, [2020-04-14T22:32:36.618052 #3616]  WARN -- : log file "/var/log/httpd/healthd/application.log.2020-04-14-22" does not exist
+W, [2020-04-14T22:32:41.618400 #3616]  WARN -- : log file "/var/log/httpd/healthd/application.log.2020-04-14-22" does not exist
+W, [2020-04-14T22:32:46.618709 #3616]  WARN -- : log file "/var/log/httpd/healthd/application.log.2020-04-14-22" does not exist
+W, [2020-04-14T22:32:51.619032 #3616]  WARN -- : log file "/var/log/httpd/healthd/application.log.2020-04-14-22" does not exist
+W, [2020-04-14T22:32:56.619335 #3616]  WARN -- : log file "/var/log/httpd/healthd/application.log.2020-04-14-22" does not exist
+W, [2020-04-14T22:33:01.619642 #3616]  WARN -- : log file "/var/log/httpd/healthd/application.log.2020-04-14-22" does not exist
+W, [2020-04-14T22:33:06.619938 #3616]  WARN -- : log file "/var/log/httpd/healthd/application.log.2020-04-14-22" does not exist
+W, [2020-04-14T22:33:11.620244 #3616]  WARN -- : log file "/var/log/httpd/healthd/application.log.2020-04-14-22" does not exist
+W, [2020-04-14T22:33:16.620535 #3616]  WARN -- : log file "/var/log/httpd/healthd/application.log.2020-04-14-22" does not exist
+W, [2020-04-14T22:33:21.620851 #3616]  WARN -- : log file "/var/log/httpd/healthd/application.log.2020-04-14-22" does not exist
+W, [2020-04-14T22:33:26.621138 #3616]  WARN -- : log file "/var/log/httpd/healthd/application.log.2020-04-14-22" does not exist
+W, [2020-04-14T22:33:31.621453 #3616]  WARN -- : log file "/var/log/httpd/healthd/application.log.2020-04-14-22" does not exist
+W, [2020-04-14T22:33:36.621783 #3616]  WARN -- : log file "/var/log/httpd/healthd/application.log.2020-04-14-22" does not exist
+W, [2020-04-14T22:33:41.622079 #3616]  WARN -- : log file "/var/log/httpd/healthd/application.log.2020-04-14-22" does not exist
+W, [2020-04-14T22:33:46.622375 #3616]  WARN -- : log file "/var/log/httpd/healthd/application.log.2020-04-14-22" does not exist
+W, [2020-04-14T22:33:51.622683 #3616]  WARN -- : log file "/var/log/httpd/healthd/application.log.2020-04-14-22" does not exist
+W, [2020-04-14T22:33:56.622978 #3616]  WARN -- : log file "/var/log/httpd/healthd/application.log.2020-04-14-22" does not exist
+A, [2020-04-14T22:41:46.434640 #4548]   ANY -- : healthd daemon 1.0.3 initialized
+W, [2020-04-14T22:41:56.631156 #4548]  WARN -- : discarding statistic item after validation error (Invalid timestamp): {:id=>"0", :namespace=>"application", :timestamp=>1586903640, :data=>"{\"duration\":10,\"latency_histogram\":[[0.286,1]],\"http_counters\":{\"status_302\":1,\"request_count\":1}}"}
+W, [2020-04-14T22:41:56.631235 #4548]  WARN -- : discarding statistic item after validation error (Invalid timestamp): {:id=>"1", :namespace=>"application", :timestamp=>1586903650, :data=>"{\"duration\":10,\"latency_histogram\":[[0.012,1],[0.048,1]],\"http_counters\":{\"status_200\":2,\"request_count\":2}}"}
+W, [2020-04-14T22:41:56.631276 #4548]  WARN -- : discarding statistic item after validation error (Invalid timestamp): {:id=>"2", :namespace=>"application", :timestamp=>1586903700, :data=>"{\"duration\":10,\"latency_histogram\":[[0.021,1],[0.023,1],[0.038,1],[0.045,1],[0.265,1],[1.112,1]],\"http_counters\":{\"status_302\":1,\"request_count\":6,\"status_200\":5}}"}
+W, [2020-04-14T22:41:56.631302 #4548]  WARN -- : discarding statistic item after validation error (Invalid timestamp): {:id=>"3", :namespace=>"application", :timestamp=>1586903710, :data=>"{\"duration\":10,\"latency_histogram\":[[0.023,1],[0.024,1],[0.026,1],[0.037,1],[0.776,1]],\"http_counters\":{\"status_200\":5,\"request_count\":5}}"}
+W, [2020-04-14T22:42:56.474356 #4548]  WARN -- : discarding statistic item after validation error (Invalid timestamp): {:id=>"0", :namespace=>"application", :timestamp=>1586903750, :data=>"{\"duration\":10,\"latency_histogram\":[[0.028,1],[0.047,1]],\"http_counters\":{\"status_302\":1,\"request_count\":2,\"status_200\":1}}"}

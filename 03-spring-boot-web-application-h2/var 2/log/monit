@@ -1,0 +1,12 @@
+[UTC Apr 14 22:32:17] info     : monit: generated unique Monit id 00c4c08892bfc29f0a86dba7e329c122 and stored to '/root/.monit.id'
+[UTC Apr 14 22:32:21] info     : Starting monit HTTP server at [localhost:2812]
+[UTC Apr 14 22:32:21] info     : monit HTTP server started
+[UTC Apr 14 22:32:21] info     : 'system_ip-172-31-33-212.ap-south-1.compute.internal' Monit started
+[UTC Apr 14 22:41:39] info     : unmonitor service 'tomcat' on user request
+[UTC Apr 14 22:41:39] info     : monit daemon at 3630 awakened
+[UTC Apr 14 22:41:39] info     : Awakened by User defined signal 1
+[UTC Apr 14 22:41:39] info     : 'tomcat' unmonitor action done
+[UTC Apr 14 22:41:42] info     : monitor service 'tomcat' on user request
+[UTC Apr 14 22:41:42] info     : monit daemon at 3630 awakened
+[UTC Apr 14 22:41:42] info     : Awakened by User defined signal 1
+[UTC Apr 14 22:41:42] info     : 'tomcat' monitor action done

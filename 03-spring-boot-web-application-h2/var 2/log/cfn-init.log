@@ -1,0 +1,46 @@
+2020-04-14 22:31:44,578 [INFO] -----------------------Starting build-----------------------
+2020-04-14 22:31:44,585 [INFO] Running configSets: _OnInstanceBoot
+2020-04-14 22:31:44,588 [INFO] Running configSet _OnInstanceBoot
+2020-04-14 22:31:44,593 [INFO] Running config AWSEBBaseConfig
+2020-04-14 22:31:44,599 [INFO] Command clearbackupfiles succeeded
+2020-04-14 22:31:44,605 [INFO] Running config AWSEBMessageOfTheDay
+2020-04-14 22:31:44,609 [INFO] Command 01clearoriginal succeeded
+2020-04-14 22:31:44,614 [INFO] Command 02createbanner succeeded
+2020-04-14 22:31:44,625 [INFO] Command 03updatebanner succeeded
+2020-04-14 22:31:44,633 [INFO] Running config AWSEBULimitConfig
+2020-04-14 22:31:44,637 [INFO] Command 00removebackup succeeded
+2020-04-14 22:31:44,643 [INFO] Running config AWSEBCfnHupEndpointOverride
+2020-04-14 22:31:44,647 [INFO] Command clearbackupfiles succeeded
+2020-04-14 22:31:44,652 [INFO] Running config Infra-InstallContainerHooksPkg
+2020-04-14 22:31:44,656 [INFO] Command 00mkdir succeeded
+2020-04-14 22:31:44,690 [INFO] Command 01download_container_hooks succeeded
+2020-04-14 22:31:44,699 [INFO] Command 02install_container_hooks succeeded
+2020-04-14 22:31:44,702 [INFO] Command 03cleanup succeeded
+2020-04-14 22:31:44,707 [INFO] Running config Infra-WriteLeaderTestScript
+2020-04-14 22:31:44,713 [INFO] Running config Infra-WriteTailLogsConf
+2020-04-14 22:31:44,718 [INFO] Running config Infra-WriteSystemTailLogsConf
+2020-04-14 22:31:44,723 [INFO] Running config Infra-WriteBundleLogsConf
+2020-04-14 22:31:44,729 [INFO] Running config Infra-WritePublishLogsConf
+2020-04-14 22:31:44,733 [INFO] Running config Infra-WritePublishLogsCron
+2020-04-14 22:31:44,734 [INFO] ConfigSets completed
+2020-04-14 22:31:44,735 [INFO] -----------------------Build complete-----------------------
+2020-04-14 22:32:11,560 [INFO] -----------------------Starting build-----------------------
+2020-04-14 22:32:11,568 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2020-04-14 22:32:11,571 [INFO] Running configSet Infra-EmbeddedPreBuild
+2020-04-14 22:32:11,571 [INFO] ConfigSets completed
+2020-04-14 22:32:11,571 [INFO] -----------------------Build complete-----------------------
+2020-04-14 22:32:13,774 [INFO] -----------------------Starting build-----------------------
+2020-04-14 22:32:13,782 [INFO] Running configSets: Infra-EmbeddedPostBuild
+2020-04-14 22:32:13,785 [INFO] Running configSet Infra-EmbeddedPostBuild
+2020-04-14 22:32:13,785 [INFO] ConfigSets completed
+2020-04-14 22:32:13,785 [INFO] -----------------------Build complete-----------------------
+2020-04-14 22:41:36,807 [INFO] -----------------------Starting build-----------------------
+2020-04-14 22:41:36,814 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2020-04-14 22:41:36,817 [INFO] Running configSet Infra-EmbeddedPreBuild
+2020-04-14 22:41:36,817 [INFO] ConfigSets completed
+2020-04-14 22:41:36,817 [INFO] -----------------------Build complete-----------------------
+2020-04-14 22:41:38,981 [INFO] -----------------------Starting build-----------------------
+2020-04-14 22:41:38,988 [INFO] Running configSets: Infra-EmbeddedPostBuild
+2020-04-14 22:41:38,991 [INFO] Running configSet Infra-EmbeddedPostBuild
+2020-04-14 22:41:38,992 [INFO] ConfigSets completed
+2020-04-14 22:41:38,992 [INFO] -----------------------Build complete-----------------------

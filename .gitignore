@@ -1,3 +1,32 @@
+
+#Multiple projects in this workspace.We are just commiting the whole workspace containing multiple projects
+ 
+.DS_Store
+.metadata
+
+**/.DS_Store
+**/.metadata
+ 
+#individual project level
+**/target
+**/bin
+**/*.jar
+**/*.war
+**/*.zip
+**/node_modules
+**/.mvn
+
+**/maven
+**/m2
+ 
+ 
+**/.settings
+**/.classpath
+**/.project
+
+DataStructure/test
+
+
 AutoConfigurationDemo/target/
 AutoConfigurationDemo/.mvn/
 AutoConfigurationDemo/.project
@@ -11,3 +40,4 @@ AutoConfigurationDemo-2/.mvn/
 AutoConfigurationDemo-2/.project
 AutoConfigurationDemo-2/.classpath
 AutoConfigurationDemo-2/.settings
+/.metadata/

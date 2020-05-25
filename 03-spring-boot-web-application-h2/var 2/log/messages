@@ -1,0 +1,618 @@
+Apr 14 22:31:38 ip-172-31-33-212 kernel: imklog 5.8.10, log source = /proc/kmsg started.
+Apr 14 22:31:38 ip-172-31-33-212 rsyslogd: [origin software="rsyslogd" swVersion="5.8.10" x-pid="2266" x-info="http://www.rsyslog.com"] start
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] Linux version 4.14.171-105.231.amzn1.x86_64 (mockbuild@koji-pdx-corp-builder-64005) (gcc version 7.2.1 20170915 (Red Hat 7.2.1-2) (GCC)) #1 SMP Thu Feb 27 23:49:15 UTC 2020
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] Command line: root=LABEL=/ console=tty1 console=ttyS0 selinux=0 nvme_core.io_timeout=4294967295 LANG=en_US.UTF-8 KEYTABLE=us
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] e820: BIOS-provided physical RAM map:
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009dfff] usable
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] BIOS-e820: [mem 0x000000000009e000-0x000000000009ffff] reserved
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] BIOS-e820: [mem 0x00000000000e0000-0x00000000000fffff] reserved
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000003fffffff] usable
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] BIOS-e820: [mem 0x00000000fc000000-0x00000000ffffffff] reserved
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] NX (Execute Disable) protection: active
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] SMBIOS 2.7 present.
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] DMI: Xen HVM domU, BIOS 4.2.amazon 08/24/2006
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] Hypervisor detected: Xen HVM
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] Xen version 4.2.
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] Netfront and the Xen platform PCI driver have been compiled for this kernel: unplug emulated NICs.
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] Blkfront and the Xen platform PCI driver have been compiled for this kernel: unplug emulated disks.
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] You might have to change the root device
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] from /dev/hd[a-d] to /dev/xvd[a-d]
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] in your root= kernel command line option
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] tsc: Fast TSC calibration using PIT
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] e820: last_pfn = 0x40000 max_arch_pfn = 0x400000000
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] found SMP MP-table at [mem 0x000fbc50-0x000fbc5f]
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] RAMDISK: [mem 0x37066000-0x37feffff]
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] ACPI: RSDP 0x00000000000EA020 000024 (v02 Xen   )
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] ACPI: XSDT 0x00000000FC00E2A0 000054 (v01 Xen    HVM      00000000 HVML 00000000)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] ACPI: FACP 0x00000000FC00DF60 0000F4 (v04 Xen    HVM      00000000 HVML 00000000)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] ACPI: DSDT 0x00000000FC0021C0 00BD19 (v02 Xen    HVM      00000000 INTL 20090123)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] ACPI: FACS 0x00000000FC002180 000040
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] ACPI: FACS 0x00000000FC002180 000040
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] ACPI: APIC 0x00000000FC00E060 0000D8 (v02 Xen    HVM      00000000 HVML 00000000)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] ACPI: HPET 0x00000000FC00E1B0 000038 (v01 Xen    HVM      00000000 HVML 00000000)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] ACPI: WAET 0x00000000FC00E1F0 000028 (v01 Xen    HVM      00000000 HVML 00000000)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] ACPI: SSDT 0x00000000FC00E220 000031 (v02 Xen    HVM      00000000 INTL 20090123)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] ACPI: SSDT 0x00000000FC00E260 000033 (v02 Xen    HVM      00000000 INTL 20090123)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] No NUMA configuration found
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] Faking a node at [mem 0x0000000000000000-0x000000003fffffff]
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] NODE_DATA(0) allocated [mem 0x3ffde000-0x3fffffff]
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] Zone ranges:
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000]   DMA32    [mem 0x0000000001000000-0x000000003fffffff]
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000]   Normal   empty
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] Movable zone start for each node
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] Early memory node ranges
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000]   node   0: [mem 0x0000000000001000-0x000000000009dfff]
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000]   node   0: [mem 0x0000000000100000-0x000000003fffffff]
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] Initmem setup node 0 [mem 0x0000000000001000-0x000000003fffffff]
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] ACPI: PM-Timer IO Port: 0xb008
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] IOAPIC[0]: apic_id 1, version 17, address 0xfec00000, GSI 0-47
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 low level)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 low level)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 low level)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] ACPI: HPET id: 0x8086a201 base: 0xfed00000
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] smpboot: Allowing 15 CPUs, 14 hotplug CPUs
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] PM: Registered nosave memory: [mem 0x0009e000-0x0009ffff]
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000a0000-0x000dffff]
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000e0000-0x000fffff]
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] e820: [mem 0x40000000-0xfbffffff] available for PCI devices
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] Booting paravirtualized kernel on Xen HVM
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] setup_percpu: NR_CPUS:8192 nr_cpumask_bits:15 nr_cpu_ids:15 nr_node_ids:1
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] percpu: Embedded 44 pages/cpu s140120 r8192 d31912 u262144
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] PV qspinlock hash table entries: 256 (order: 0, 4096 bytes)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 257928
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] Policy zone: DMA32
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] Kernel command line: root=LABEL=/ console=tty1 console=ttyS0 selinux=0 nvme_core.io_timeout=4294967295 LANG=en_US.UTF-8 KEYTABLE=us
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] PID hash table entries: 4096 (order: 3, 32768 bytes)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] Memory: 987780K/1048180K available (8204K kernel code, 1923K rwdata, 2704K rodata, 2048K init, 4212K bss, 60400K reserved, 0K cma-reserved)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=15, Nodes=1
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] Kernel/User page tables isolation: enabled
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.000000] ftrace: allocating 25874 entries in 102 pages
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.004000] Hierarchical RCU implementation.
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.004000] 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=15.
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.004000] RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=15
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.004000] NR_IRQS: 524544, nr_irqs: 952, preallocated irqs: 16
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.004000] xen:events: Using 2-level ABI
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.004000] xen:events: Xen HVM callback vector for event delivery is enabled
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.004000] Console: colour VGA+ 80x25
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.004000] console [tty1] enabled
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.004000] Cannot get hvm parameter CONSOLE_EVTCHN (18): -22!
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.004000] console [ttyS0] enabled
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.004000] clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 30580167144 ns
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.008000] tsc: Fast TSC calibration using PIT
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.020004] tsc: Detected 2400.179 MHz processor
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.024010] Calibrating delay loop (skipped), value calculated using timer frequency.. 4800.18 BogoMIPS (lpj=9600376)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.032004] pid_max: default: 32768 minimum: 301
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.036017] ACPI: Core revision 20170728
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.045508] ACPI: 3 ACPI AML tables successfully acquired and loaded
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.048036] Security Framework initialized
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.052188] Dentry cache hash table entries: 131072 (order: 8, 1048576 bytes)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.060087] Inode-cache hash table entries: 65536 (order: 7, 524288 bytes)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.064018] Mount-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.068006] Mountpoint-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.076233] mce: CPU supports 2 MCE banks
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.080033] Last level iTLB entries: 4KB 1024, 2MB 1024, 4MB 1024
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.084002] Last level dTLB entries: 4KB 1024, 2MB 1024, 4MB 1024, 1GB 4
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.088005] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.096003] Spectre V2 : Mitigation: Full generic retpoline
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.100002] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.108002] Speculative Store Bypass: Vulnerable
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.112030] MDS: Vulnerable: Clear CPU buffers attempted, no microcode
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.126131] smpboot: Max logical packages: 15
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.136837] x2apic: IRQ remapping doesn't support X2APIC mode
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.144004] Switched APIC routing to physical flat.
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.150693] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=0 pin2=0
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.197386] clocksource: xen: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.204019] installing Xen timer for CPU 0
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.208083] smpboot: CPU0: Intel(R) Xeon(R) CPU E5-2676 v3 @ 2.40GHz (family: 0x6, model: 0x3f, stepping: 0x2)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.212040] cpu 0 spinlock event irq 53
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.215603] Performance Events: unsupported p6 CPU model 63 no PMU driver, software events only.
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.216050] Hierarchical SRCU implementation.
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.220289] NMI watchdog: Perf event create on CPU 0 failed with -2
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.224004] NMI watchdog: Perf NMI watchdog permanently disabled
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.228197] smp: Bringing up secondary CPUs ...
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.232005] smp: Brought up 1 node, 1 CPU
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.235449] smpboot: Total of 1 processors activated (4800.18 BogoMIPS)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.236492] devtmpfs: initialized
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.239947] x86/mm: Memory block size: 128MB
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.240196] random: get_random_bytes called from setup_net+0x3c/0x140 with crng_init=0
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.244062] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.248021] futex hash table entries: 4096 (order: 6, 262144 bytes)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.252266] NET: Registered protocol family 16
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.256240] cpuidle: using governor ladder
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.260009] cpuidle: using governor menu
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.263934] ACPI: bus type PCI registered
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.264009] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.268408] PCI: Using configuration type 1 for base access
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.274875] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.276221] ACPI: Added _OSI(Module Device)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.280014] ACPI: Added _OSI(Processor Device)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.284007] ACPI: Added _OSI(3.0 _SCP Extensions)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.288007] ACPI: Added _OSI(Processor Aggregator Device)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.294349] ACPI: Interpreter enabled
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.296014] ACPI: (supports S0 S4 S5)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.299798] ACPI: Using IOAPIC for interrupt routing
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.300035] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.304423] ACPI: Enabled 2 GPEs in block 00 to 0F
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.365023] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.368014] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.372026] acpi PNP0A03:00: _OSC failed (AE_NOT_FOUND); disabling ASPM
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.376026] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.381131] acpiphp: Slot [0] registered
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.385565] acpiphp: Slot [3] registered
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.388603] acpiphp: Slot [4] registered
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.392595] acpiphp: Slot [5] registered
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.396598] acpiphp: Slot [6] registered
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.400636] acpiphp: Slot [7] registered
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.404614] acpiphp: Slot [8] registered
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.408597] acpiphp: Slot [9] registered
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.412597] acpiphp: Slot [10] registered
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.416604] acpiphp: Slot [11] registered
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.420667] acpiphp: Slot [12] registered
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.424558] acpiphp: Slot [13] registered
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.428591] acpiphp: Slot [14] registered
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.432536] acpiphp: Slot [15] registered
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.436622] acpiphp: Slot [16] registered
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.440638] acpiphp: Slot [17] registered
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.444656] acpiphp: Slot [18] registered
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.448615] acpiphp: Slot [19] registered
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.452620] acpiphp: Slot [20] registered
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.456696] acpiphp: Slot [21] registered
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.460658] acpiphp: Slot [22] registered
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.464617] acpiphp: Slot [23] registered
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.468639] acpiphp: Slot [24] registered
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.472605] acpiphp: Slot [25] registered
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.476608] acpiphp: Slot [26] registered
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.480560] acpiphp: Slot [27] registered
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.484590] acpiphp: Slot [28] registered
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.488560] acpiphp: Slot [29] registered
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.492603] acpiphp: Slot [30] registered
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.496577] acpiphp: Slot [31] registered
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.500489] PCI host bridge to bus 0000:00
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.504009] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.508009] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.512008] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.516006] pci_bus 0000:00: root bus resource [mem 0xf0000000-0xfbffffff window]
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.520008] pci_bus 0000:00: root bus resource [bus 00-ff]
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.533655] pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.536004] pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.540007] pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.544007] pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.549051] * Found PM-Timer Bug on the chipset. Due to workarounds for a bug,
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.549051] * this clock source is slow. Consider trying other clock sources
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.554075] pci 0000:00:01.3: quirk: [io  0xb000-0xb03f] claimed by PIIX4 ACPI
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.567588] ACPI: PCI Interrupt Link [LNKA] (IRQs *5 10 11)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.568280] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.572308] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.576308] ACPI: PCI Interrupt Link [LNKD] (IRQs *5 10 11)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.601274] xen:balloon: Initialising balloon driver
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.620616] pci 0000:00:02.0: vgaarb: setting as boot VGA device
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.624000] pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.624021] pci 0000:00:02.0: vgaarb: bridge control possible
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.628008] vgaarb: loaded
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.632279] EDAC MC: Ver: 3.0.0
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.636625] PCI: Using ACPI for IRQ routing
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.640599] NetLabel: Initializing
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.644006] NetLabel:  domain hash size = 128
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.648006] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.652023] NetLabel:  unlabeled traffic allowed by default
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.656074] HPET: 3 timers in total, 0 timers will be used for per-cpu timer
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.660021] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.664009] hpet0: 3 comparators, 64-bit 62.500000 MHz counter
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.672207] clocksource: Switched to clocksource xen
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.692080] VFS: Disk quotas dquot_6.6.0
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.696467] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.702480] pnp: PnP ACPI init
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.705452] system 00:00: [mem 0x00000000-0x0009ffff] could not be reserved
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.711125] system 00:01: [io  0x08a0-0x08a3] has been reserved
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.715862] system 00:01: [io  0x0cc0-0x0ccf] has been reserved
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.720696] system 00:01: [io  0x04d0-0x04d1] has been reserved
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.725893] system 00:07: [io  0x10c0-0x1141] has been reserved
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.730989] system 00:07: [io  0xb044-0xb047] has been reserved
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.761443] pnp: PnP ACPI: found 8 devices
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.792063] random: fast init done
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.805405] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.825119] NET: Registered protocol family 2
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.852991] TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.868085] TCP bind hash table entries: 8192 (order: 5, 131072 bytes)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.909560] TCP: Hash tables configured (established 8192 bind 8192)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.916099] UDP hash table entries: 512 (order: 2, 16384 bytes)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.921471] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.926926] NET: Registered protocol family 1
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.930860] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.935828] pci 0000:00:01.0: PIIX3: Enabling Passive Release
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.940829] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.946319] pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    0.954448] Unpacking initramfs...
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    1.202146] Freeing initrd memory: 15912K
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    1.211783] audit: initializing netlink subsys (disabled)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    1.219432] Initialise system trusted keyrings
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    1.224591] Key type blacklist registered
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    1.229257] audit: type=2000 audit(1586903492.406:1): state=initialized audit_enabled=0 res=1
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    1.239121] workingset: timestamp_bits=36 max_order=18 bucket_order=0
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    1.245937] zbud: loaded
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    1.526403] Key type asymmetric registered
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    1.531438] Asymmetric key parser 'x509' registered
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    1.536712] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 253)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    1.544571] io scheduler noop registered (default)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    1.550398] xen:grant_table: Grant tables using version 1 layout
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    1.557077] Grant table initialized
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    1.561467] Cannot get hvm parameter CONSOLE_EVTCHN (18): -22!
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    1.567437] Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    1.606851] 00:06: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    1.615954] xen_netfront: Initialising Xen virtual ethernet driver
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    1.624017] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f13:PS2M] at 0x60,0x64 irq 1,12
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    1.635205] serio: i8042 KBD port at 0x60,0x64 irq 1
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    1.640669] serio: i8042 AUX port at 0x60,0x64 irq 12
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    1.647606] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input0
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    1.658038] rtc_cmos 00:02: rtc core: registered rtc_cmos as rtc0
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    1.664782] rtc_cmos 00:02: alarms up to one day, 114 bytes nvram, hpet irqs
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    1.672878] hidraw: raw HID events driver (C) Jiri Kosina
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    1.679230] NET: Registered protocol family 17
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    1.693457] sched_clock: Marking stable (1693087430, 0)->(2620674590, -927587160)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    1.701347] registered taskstats version 1
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    1.705853] Loading compiled-in X.509 certificates
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    1.720077] zswap: loaded using pool lzo/zbud
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    1.828156] xenbus_probe_frontend: Device with no driver: device/vbd/51712
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    1.835676] rtc_cmos 00:02: setting system clock to 2020-04-14 22:31:33 UTC (1586903493)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    1.847324] Freeing unused kernel memory: 2048K
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    1.860094] Write protecting the kernel read-only data: 14336k
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    1.867542] Freeing unused kernel memory: 2016K
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    1.876700] Freeing unused kernel memory: 1392K
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    1.900298] device-mapper: uevent: version 1.0.3
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    1.907414] device-mapper: ioctl: 4.37.0-ioctl (2017-09-20) initialised: dm-devel@redhat.com
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    1.973923] SCSI subsystem initialized
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    2.059616] Invalid max_queues (4), will use default max: 1.
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    2.091322] scsi host0: ata_piix
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    2.115596] scsi host1: ata_piix
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    2.123202] ata1: PATA max MWDMA2 cmd 0x1f0 ctl 0x3f6 bmdma 0xc100 irq 14
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    2.130575] ata2: PATA max MWDMA2 cmd 0x170 ctl 0x376 bmdma 0xc108 irq 15
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    2.146344] blkfront: xvda: barrier or flush: disabled; persistent grants: disabled; indirect descriptors: enabled;
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    2.220476]  xvda: xvda1
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    2.240082] tsc: Refined TSC clocksource calibration: 2400.002 MHz
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    2.244858] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x22983938a92, max_idle_ns: 440795216168 ns
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    2.440722] EXT4-fs (xvda1): mounted filesystem with ordered data mode. Opts: (null)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    2.530107] EXT4-fs (xvda1): mounted filesystem with ordered data mode. Opts: (null)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    2.822235] random: init: uninitialized urandom read (12 bytes read)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    3.381251] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input3
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    3.405366] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input4
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    3.481365] ACPI: Power Button [PWRF]
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    3.486432] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input5
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    3.566237] ACPI: Sleep Button [SLPF]
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    3.571839] mousedev: PS/2 mouse device common for all mice
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    4.785064] random: lvm: uninitialized urandom read (4 bytes read)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    4.835249] EXT4-fs (xvda1): re-mounted. Opts: (null)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    4.912412] random: dd: uninitialized urandom read (4096 bytes read)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    5.123453] random: vgs: uninitialized urandom read (4 bytes read)
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    5.314383] NET: Registered protocol family 10
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    5.327150] Segment Routing with IPv6
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    5.442582] random: crng init done
+Apr 14 22:31:38 ip-172-31-33-212 kernel: [    5.541321] netlink: 12 bytes leftover after parsing attributes in process `ip'.
+Apr 14 22:31:38 ip-172-31-33-212 irqbalance: Balancing is ineffective on systems with a single cpu.  Shutting down
+Apr 14 22:31:39 ip-172-31-33-212 rpc.statd[2331]: Version 1.3.0 starting
+Apr 14 22:31:39 ip-172-31-33-212 sm-notify[2332]: Version 1.3.0 starting
+Apr 14 22:31:39 ip-172-31-33-212 acpid: starting up with netlink and the input layer
+Apr 14 22:31:39 ip-172-31-33-212 acpid: skipping incomplete file /etc/acpi/events/videoconf
+Apr 14 22:31:39 ip-172-31-33-212 acpid: 2 rules loaded
+Apr 14 22:31:39 ip-172-31-33-212 acpid: waiting for events: event logging is off
+Apr 14 22:31:39 ip-172-31-33-212 udevadm[2405]: --type=failed is deprecated and will be removed from a future udev release.
+Apr 14 22:31:39 ip-172-31-33-212 ec2net: [ec2ifscan] Scanning for unconfigured interfaces
+Apr 14 22:31:39 ip-172-31-33-212 dhclient[2203]: XMT: Solicit on eth0, interval 2030ms.
+Apr 14 22:31:41 ip-172-31-33-212 hibinit-agent: Instance Launch has not enabled Hibernation Configured Flag. hibinit-agent exiting!!
+Apr 14 22:31:41 ip-172-31-33-212 acpid: exiting
+Apr 14 22:31:41 ip-172-31-33-212 acpid: starting up with netlink and the input layer
+Apr 14 22:31:41 ip-172-31-33-212 acpid: skipping incomplete file /etc/acpi/events/videoconf
+Apr 14 22:31:41 ip-172-31-33-212 acpid: 2 rules loaded
+Apr 14 22:31:41 ip-172-31-33-212 acpid: waiting for events: event logging is off
+Apr 14 22:31:41 ip-172-31-33-212 ntpd[2565]: ntpd 4.2.8p12@1.3728-o Fri May  3 15:36:34 UTC 2019 (1): Starting
+Apr 14 22:31:41 ip-172-31-33-212 ntpd[2565]: Command line: ntpd -u ntp:ntp -p /var/run/ntpd.pid -g
+Apr 14 22:31:41 ip-172-31-33-212 ntpd[2567]: proto: precision = 0.566 usec (-21)
+Apr 14 22:31:41 ip-172-31-33-212 ntpd[2567]: Listen and drop on 0 v4wildcard 0.0.0.0:123
+Apr 14 22:31:41 ip-172-31-33-212 ntpd[2567]: Listen normally on 1 lo 127.0.0.1:123
+Apr 14 22:31:41 ip-172-31-33-212 ntpd[2567]: Listen normally on 2 eth0 172.31.33.212:123
+Apr 14 22:31:41 ip-172-31-33-212 ntpd[2567]: Listening on routing socket on fd #19 for interface updates
+Apr 14 22:31:41 ip-172-31-33-212 ntpd[2567]: kernel reports TIME_ERROR: 0x41: Clock Unsynchronized
+Apr 14 22:31:41 ip-172-31-33-212 ntpd[2567]: kernel reports TIME_ERROR: 0x41: Clock Unsynchronized
+Apr 14 22:31:41 ip-172-31-33-212 dhclient[2203]: XMT: Solicit on eth0, interval 3980ms.
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:42Z] Started EB User Data
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]: + SLEEP_TIME=10
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]: + SLEEP_TIME_MAX=3600
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]: + true
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]: + curl https://s3.dualstack.ap-south-1.amazonaws.com/elasticbeanstalk-env-resources-ap-south-1/stalks/eb_tomcat_4.0.1.202865.0_1585088816/lib/UserDataScript.sh
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]:                                  Dload  Upload   Total   Spent    Left  Speed
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]: #015  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0#015100 12536  100 12536    0     0   298k      0 --:--:-- --:--:-- --:--:--  298k
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]: + RESULT=0
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]: + [[ 0 -ne 0 ]]
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:42.187Z] Started EB Bootstrapping Script.
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:42.239Z] Received parameters:
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]:  RPMS = https://s3.dualstack.ap-south-1.amazonaws.com/elasticbeanstalk-env-resources-ap-south-1/stalks/eb_tomcat_4.0.1.202865.0_1585088816/lib/aws-elasticbeanstalk-tools-1.20-1.noarch.rpm
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]:  TARBALLS = https://s3.dualstack.ap-south-1.amazonaws.com/elasticbeanstalk-env-resources-ap-south-1/stalks/eb_tomcat_4.0.1.202865.0_1585088816/lib/awseb-ruby-2.2.4-x86_64-20160503_1008.tar.gz https://s3.dualstack.ap-south-1.amazonaws.com/elasticbeanstalk-env-resources-ap-south-1/stalks/eb_tomcat_4.0.1.202865.0_1585088816/lib/basehooks.tar.gz
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]: + /bin/bash /tmp/ebbootstrap.sh https://s3.dualstack.ap-south-1.amazonaws.com/elasticbeanstalk-env-resources-ap-south-1/stalks/eb_tomcat_4.0.1.202865.0_1585088816/lib/aws-elasticbeanstalk-tools-1.20-1.noarch.rpm 'https://s3.dualstack.ap-south-1.amazonaws.com/elasticbeanstalk-env-resources-ap-south-1/stalks/eb_tomcat_4.0.1.202865.0_1585088816/lib/awseb-ruby-2.2.4-x86_64-20160503_1008.tar.gz https://s3.dualstack.ap-south-1.amazonaws.com/elasticbeanstalk-env-resources-ap-south-1/stalks/eb_tomcat_4.0.1.202865.0_1585088816/lib/basehooks.tar.gz' 'https://s3.dualstack.ap-south-1.amazonaws.com/elasticbeanstalk-env-resources-ap-south-1/stalks/eb_tomcat_4.0.1.202865.0_1585088816/lib/beanstalk-core-2.12.gem https://s3.dualstack.ap-south-1.amazonaws.com/elasticbeanstalk-env-resources-ap-south-1/stalks/eb_tomcat_4.0.1.202865.0_1585088816/lib/beanstalk-core-healthd-1.1.gem https://s3.dualstack.ap-south-1.amazonaws.com/elasticbeanstalk-env-resources-ap-south-1/stalks/eb_tomcat_4.0.1.202865.0_1585088816/lib/executor-1.2.gem
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]:  EB_GEMS = https://s3.dualstack.ap-south-1.amazonaws.com/elasticbeanstalk-env-resources-ap-south-1/stalks/eb_tomcat_4.0.1.202865.0_1585088816/lib/beanstalk-core-2.12.gem https://s3.dualstack.ap-south-1.amazonaws.com/elasticbeanstalk-env-resources-ap-south-1/stalks/eb_tomcat_4.0.1.202865.0_1585088816/lib/beanstalk-core-healthd-1.1.gem https://s3.dualstack.ap-south-1.amazonaws.com/elasticbeanstalk-env-resources-ap-south-1/stalks/eb_tomcat_4.0.1.202865.0_1585088816/lib/executor-1.2.gem
+Apr 14 22:31:42 ip-172-31-33-212 ntpd[2567]: ntpd exiting on signal 15 (Terminated)
+Apr 14 22:31:42 ip-172-31-33-212 ntpd[2567]: 169.254.169.123 local addr 172.31.33.212 -> <null>
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]: ' 'https://cloudformation-waitcondition-ap-south-1.s3.ap-south-1.amazonaws.com/arn%3Aaws%3Acloudformation%3Aap-south-1%3A439863013922%3Astack/awseb-e-xxy4z56gpx-stack/82ad8090-7e9f-11ea-9738-0695265dabc8/AWSEBInstanceLaunchWaitHandle?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200414T223017Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86399&X-Amz-Credential=AKIAJ4TH4Y2KGKFL7R6A%2F20200414%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Signature=061ef43351032b760eef4de01a2a72be0a778aad478656cfa1eb37efff44aaf4' arn:aws:cloudformation:ap-south-1:439863013922:stack/awseb-e-xxy4z56gpx-stack/82ad8090-7e9f-11ea-9738-0695265dabc8 ap-south-1 eb308d7d16f1 447a2fef-5f62-49c8-a734-0cd870cd804d '' apache ''
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]:  SIGNAL_URL = https://cloudformation-waitcondition-ap-south-1.s3.ap-south-1.amazonaws.com/arn%3Aaws%3Acloudformation%3Aap-south-1%3A439863013922%3Astack/awseb-e-xxy4z56gpx-stack/82ad8090-7e9f-11ea-9738-0695265dabc8/AWSEBInstanceLaunchWaitHandle?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200414T223017Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86399&X-Amz-Credential=AKIAJ4TH4Y2KGKFL7R6A%2F20200414%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Signature=061ef43351032b760eef4de01a2a72be0a778aad478656cfa1eb37efff44aaf4
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]:  STACK_ID = arn:aws:cloudformation:ap-south-1:439863013922:stack/awseb-e-xxy4z56gpx-stack/82ad8090-7e9f-11ea-9738-0695265dabc8
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]:  REGION = ap-south-1
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]:  GUID = eb308d7d16f1
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]:  HEALTHD_GROUP_ID = 447a2fef-5f62-49c8-a734-0cd870cd804d
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]:  HEALTHD_ENDPOINT = 
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]:  PROXY_SERVER = apache
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]:  HEALTHD_PROXY_LOG_LOCATION =
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:42.245Z] Synchronizing network time in background.
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:42.296Z] yum repo has already been locked to eb308d7d16f1.
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:42.302Z] yum update has already been done.
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]: Shutting down ntpd: [2020-04-14T22:31:42.377Z] Completed creating AWS EB users and groups.
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:42.379Z] Started executing install_rpms https://s3.dualstack.ap-south-1.amazonaws.com/elasticbeanstalk-env-resources-ap-south-1/stalks/eb_tomcat_4.0.1.202865.0_1585088816/lib/aws-elasticbeanstalk-tools-1.20-1.noarch.rpm.
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:42.381Z] Installing RPM: https://s3.dualstack.ap-south-1.amazonaws.com/elasticbeanstalk-env-resources-ap-south-1/stalks/eb_tomcat_4.0.1.202865.0_1585088816/lib/aws-elasticbeanstalk-tools-1.20-1.noarch.rpm.
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]: [  OK  ]#015
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:42.499Z] aws-elasticbeanstalk-tools-1.20-1.noarch has already been installed. Skip installing.
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:42.506Z] Command Returned: 
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:42.511Z] Completed executing install_rpms.
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:42.517Z] Started executing install_tarballs https://s3.dualstack.ap-south-1.amazonaws.com/elasticbeanstalk-env-resources-ap-south-1/stalks/eb_tomcat_4.0.1.202865.0_1585088816/lib/awseb-ruby-2.2.4-x86_64-20160503_1008.tar.gz https://s3.dualstack.ap-south-1.amazonaws.com/elasticbeanstalk-env-resources-ap-south-1/stalks/eb_tomcat_4.0.1.202865.0_1585088816/lib/basehooks.tar.gz.
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:42.536Z] Installing tarball: https://s3.dualstack.ap-south-1.amazonaws.com/elasticbeanstalk-env-resources-ap-south-1/stalks/eb_tomcat_4.0.1.202865.0_1585088816/lib/awseb-ruby-2.2.4-x86_64-20160503_1008.tar.gz.
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:42.537Z] awseb-ruby-2.2.4-x86_64-20160503_1008.tar.gz has already been installed. Skip installing.
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:42.539Z] Installing tarball: https://s3.dualstack.ap-south-1.amazonaws.com/elasticbeanstalk-env-resources-ap-south-1/stalks/eb_tomcat_4.0.1.202865.0_1585088816/lib/basehooks.tar.gz.
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:42.605Z] Command Returned: 
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]: 
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]: 2020-04-14 22:31:42 URL:https://s3.dualstack.ap-south-1.amazonaws.com/elasticbeanstalk-env-resources-ap-south-1/stalks/eb_tomcat_4.0.1.202865.0_1585088816/lib/basehooks.tar.gz [5885/5885] -> "/tmp/basehooks.tar.gz" [1]
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:42.620Z] Completed executing install_tarballs.
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:42.621Z] Started executing install_eb_gems https://s3.dualstack.ap-south-1.amazonaws.com/elasticbeanstalk-env-resources-ap-south-1/stalks/eb_tomcat_4.0.1.202865.0_1585088816/lib/beanstalk-core-2.12.gem https://s3.dualstack.ap-south-1.amazonaws.com/elasticbeanstalk-env-resources-ap-south-1/stalks/eb_tomcat_4.0.1.202865.0_1585088816/lib/beanstalk-core-healthd-1.1.gem https://s3.dualstack.ap-south-1.amazonaws.com/elasticbeanstalk-env-resources-ap-south-1/stalks/eb_tomcat_4.0.1.202865.0_1585088816/lib/executor-1.2.gem.
+Apr 14 22:31:42 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:42.653Z] Installing EB Gem: https://s3.dualstack.ap-south-1.amazonaws.com/elasticbeanstalk-env-resources-ap-south-1/stalks/eb_tomcat_4.0.1.202865.0_1585088816/lib/beanstalk-core-2.12.gem.
+Apr 14 22:31:43 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:43.169Z] beanstalk-core-2.12 has already been installed. Skip installing.
+Apr 14 22:31:43 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:43.177Z] Installing EB Gem: https://s3.dualstack.ap-south-1.amazonaws.com/elasticbeanstalk-env-resources-ap-south-1/stalks/eb_tomcat_4.0.1.202865.0_1585088816/lib/beanstalk-core-healthd-1.1.gem.
+Apr 14 22:31:43 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:43.358Z] beanstalk-core-healthd-1.1 has already been installed. Skip installing.
+Apr 14 22:31:43 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:43.365Z] Installing EB Gem: https://s3.dualstack.ap-south-1.amazonaws.com/elasticbeanstalk-env-resources-ap-south-1/stalks/eb_tomcat_4.0.1.202865.0_1585088816/lib/executor-1.2.gem.
+Apr 14 22:31:43 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:43.543Z] executor-1.2 has already been installed. Skip installing.
+Apr 14 22:31:43 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:43.552Z] Command Returned: 
+Apr 14 22:31:43 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:43.557Z] Completed executing install_eb_gems.
+Apr 14 22:31:43 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:43.562Z] Starting healthd
+Apr 14 22:31:43 ip-172-31-33-212 [eb-cfn-init]: initctl: Unknown instance: 
+Apr 14 22:31:43 ip-172-31-33-212 [eb-cfn-init]: healthd start/running, process 2751
+Apr 14 22:31:43 ip-172-31-33-212 su: (to healthd) root on none
+Apr 14 22:31:43 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:43.838Z] First init of instance.
+Apr 14 22:31:43 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:43.849Z] Started executing cfn_init _OnInstanceBoot first_init.
+Apr 14 22:31:43 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:43.860Z] Running cfn-init ConfigSet: _OnInstanceBoot.
+Apr 14 22:31:44 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:44.752Z] Command Returned: 
+Apr 14 22:31:44 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:44.757Z] Completed executing cfn_init.
+Apr 14 22:31:44 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:44.841Z] Check whether controlled by launch workflow...
+Apr 14 22:31:45 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:45.374Z] Worflow running.
+Apr 14 22:31:45 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:45.380Z] Workflow controlled instance. Running container provisioning...
+Apr 14 22:31:45 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:45.387Z] Started executing start_cfn_hup.
+Apr 14 22:31:45 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:45.394Z] Starting cfn-hup.
+Apr 14 22:31:45 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:45.404Z] Command Returned: cfn-hup start/running, process 2830
+Apr 14 22:31:45 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:45.416Z] Completed executing start_cfn_hup.
+Apr 14 22:31:45 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:45.425Z] Started executing run_eb_command { "api_version" : "1.0", "request_id": "0", "command_name": "CMD-PreInit" } .
+Apr 14 22:31:45 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:45.443Z] Running EB Command: { "api_version" : "1.0", "request_id": "0", "command_name": "CMD-PreInit" } .
+Apr 14 22:31:45 ip-172-31-33-212 dhclient[2203]: XMT: Solicit on eth0, interval 8220ms.
+Apr 14 22:31:47 ip-172-31-33-212 yum[2854]: Installed: aws-cli-plugin-cloudwatch-logs-1.4.6-1.17.amzn1.noarch
+Apr 14 22:31:48 ip-172-31-33-212 yum[2854]: Installed: awslogs-1.1.4-1.12.amzn1.noarch
+Apr 14 22:31:50 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:50.615Z] Command Returned: {"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[]}]}
+Apr 14 22:31:50 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:50.624Z] Completed executing run_eb_command.
+Apr 14 22:31:50 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:50.630Z] Successfully bootstrapped instance.
+Apr 14 22:31:50 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:50.729Z] Sending signal 0 to CFN wait condition https://cloudformation-waitcondition-ap-south-1.s3.ap-south-1.amazonaws.com/arn%3Aaws%3Acloudformation%3Aap-south-1%3A439863013922%3Astack/awseb-e-xxy4z56gpx-stack/82ad8090-7e9f-11ea-9738-0695265dabc8/AWSEBInstanceLaunchWaitHandle?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200414T223017Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86399&X-Amz-Credential=AKIAJ4TH4Y2KGKFL7R6A%2F20200414%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Signature=061ef43351032b760eef4de01a2a72be0a778aad478656cfa1eb37efff44aaf4
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: CloudFormation signaled successfully with SUCCESS.
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:52.111Z] Tailing /var/log/eb-commandprocessor.log
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: 
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: ******************* eb-commandprocessor taillog *******************
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:45.756Z] DEBUG [2840]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:45.756Z] DEBUG [2840]  : Checking if the command processor should execute...
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:45.762Z] DEBUG [2840]  : Checking whether the command is applicable to instance (i-02958b133c9bba6cc)..
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:45.762Z] INFO  [2840]  : Command is applicable to this instance (i-02958b133c9bba6cc)..
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: + exit 0
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:45.762Z] DEBUG [2840]  : Checking if the received command stage is valid..
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:45.762Z] INFO  [2840]  : No stage_num in command. Valid stage..
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:45.762Z] INFO  [2840]  : Received command CMD-PreInit: {"api_version"=>"1.0", "request_id"=>"0", "command_name"=>"CMD-PreInit"}
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:45.762Z] INFO  [2840]  : Command processor should execute command.
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:45.762Z] DEBUG [2840]  : Storing current stage..
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:45.762Z] DEBUG [2840]  : Stage_num does not exist. Not saving null stage. Returning..
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:45.762Z] DEBUG [2840]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:45.762Z] DEBUG [2840]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:45.762Z] DEBUG [2840]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:45.763Z] INFO  [2840]  : Found enabled addons: ["logpublish", "logstreaming"].
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:45.764Z] INFO  [2840]  : Updating Command definition of addon logpublish.
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:45.764Z] INFO  [2840]  : Updating Command definition of addon logstreaming.
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:45.764Z] DEBUG [2840]  : Refreshing metadata...
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:45.765Z] DEBUG [2840]  : Using cached environment metadata.
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:45.765Z] INFO  [2840]  : Recreated directory /opt/elasticbeanstalk/deploy/configuration/.
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:45.765Z] DEBUG [2840]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_AppSourceUrlFileContent||url..
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:45.766Z] INFO  [2840]  : Created appsource url file at /opt/elasticbeanstalk/deploy/configuration/appsourceurl.
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:45.766Z] DEBUG [2840]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent..
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:45.767Z] INFO  [2840]  : Created container config file at /opt/elasticbeanstalk/deploy/configuration/containerconfiguration.
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:45.767Z] DEBUG [2840]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:45.768Z] DEBUG [2840]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:45.772Z] INFO  [2840]  : Found enabled addons: ["logpublish", "logstreaming"].
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:45.773Z] INFO  [2840]  : Updating Command definition of addon logpublish.
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:45.773Z] INFO  [2840]  : Updating Command definition of addon logstreaming.
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:45.773Z] DEBUG [2840]  : Retrieving metadata for key: AWS::CloudFormation::Init||Infra-WriteApplication2||files..
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:45.774Z] DEBUG [2840]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||ManifestFileS3Key..
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:46.027Z] INFO  [2840]  : Finding latest manifest from bucket 'elasticbeanstalk-ap-south-1-439863013922' with prefix 'resources/environments/e-xxy4z56gpx/_runtime/versions/manifest_'.
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:46.125Z] INFO  [2840]  : Found manifest with key 'resources/environments/e-xxy4z56gpx/_runtime/versions/manifest_1586903414139'.
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:46.149Z] INFO  [2840]  : Updated manifest cache: deployment ID 1 and serial 1.
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:46.149Z] DEBUG [2840]  : Loaded definition of Command CMD-PreInit.
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:46.149Z] INFO  [2840]  : Executing Initialization
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:46.149Z] INFO  [2840]  : Executing command: CMD-PreInit...
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:46.149Z] INFO  [2840]  : Executing command CMD-PreInit activities...
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:46.149Z] DEBUG [2840]  : Setting environment variables..
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:46.149Z] INFO  [2840]  : Running AddonsBefore for command CMD-PreInit...
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:48.414Z] DEBUG [2840]  : Running stages of Command CMD-PreInit from stage 0 to stage 0...
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:48.414Z] INFO  [2840]  : Running stage 0 of command CMD-PreInit...
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:48.414Z] DEBUG [2840]  : Loaded 2 actions for stage 0.
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:48.414Z] INFO  [2840]  : Running 1 of 2 actions: DownloadSourceBundle...
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:49.210Z] INFO  [2840]  : Running 2 of 2 actions: PreInitHook...
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:50.601Z] INFO  [2840]  : Running AddonsAfter for command CMD-PreInit...
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:50.601Z] INFO  [2840]  : Command CMD-PreInit succeeded!
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:50.601Z] INFO  [2840]  : Command processor returning results: 
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: {"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[]}]}
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: ******************* End of taillog *******************
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: 
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: 
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:52.139Z] Tailing /var/log/eb-activity.log
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: 
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: ******************* eb-activity taillog *******************
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   ++ /opt/elasticbeanstalk/bin/get-config container -k tomcat_version
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   + TOMCAT_VERSION=8.5
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   + '[' 8.5 == 8.5 ']'
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   + TOMCAT_VERSION=8
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   + TOMCAT_NAME=tomcat8
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   + TOMCAT_HOME=/usr/share/tomcat8
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   + TOMCAT_CONF_HOME=/etc/tomcat8
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   + SET_LIMIT_SH=/etc/elasticbeanstalk/set-ulimit.sh
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   + echo 'Patching Tomcat 8 startup scripts'
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   Patching Tomcat 8 startup scripts
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   + '[' -f /opt/elasticbeanstalk/containerfiles/tomcat-elasticbeanstalk ']'
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   + echo 'Installing tomcat-elasticbeanstalk script'
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   Installing tomcat-elasticbeanstalk script
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   + /bin/mv /opt/elasticbeanstalk/containerfiles/tomcat-elasticbeanstalk /usr/sbin
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   + /bin/chown root:root /usr/sbin/tomcat-elasticbeanstalk
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   + /bin/chmod 755 /usr/sbin/tomcat-elasticbeanstalk
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   + echo 'Fixing Tomcat 8 init.d script'
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   Fixing Tomcat 8 init.d script
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   + /bin/sed -i -e 's/\/usr\/sbin\/tomcat8/\/usr\/sbin\/tomcat-elasticbeanstalk/g' /etc/init.d/tomcat8
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   + grep -q /etc/elasticbeanstalk/set-ulimit.sh
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   + cat /etc/init.d/tomcat8
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   + sed -i '/function start() {/a \ \ \ if [ -f /etc/elasticbeanstalk/set-ulimit.sh ]; then . /etc/elasticbeanstalk/set-ulimit.sh; fi' /etc/init.d/tomcat8
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   + echo 'Adding X-Forwarded-Proto valve'
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   Adding X-Forwarded-Proto valve
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   + /bin/sed -i -e '/<\/Host>/ i\
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:       <Valve className="org.apache.catalina.valves.RemoteIpValve" protocolHeader="X-Forwarded-Proto" internalProxies="10\.\d+\.\d+\.\d+|192\.168\.\d+\.\d+|169\.254\.\d+\.\d+|127\.\d+\.\d+\.\d+|172\.(1[6-9]|2[0-9]|3[0-1])\.\d+\.\d+" \/>
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   ' /etc/tomcat8/server.xml
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   + echo 'Setting UTF-8 support'
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   Setting UTF-8 support
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   + grep -q 'Elastic Beanstalk' /etc/tomcat8/server.xml
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   + sed -i '1 a\<!-- Elastic Beanstalk Maintained -->' /etc/tomcat8/server.xml
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   + sed -i 's/<Connector port=\"8080\" protocol=\"HTTP\/1.1\"/&
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:                URIEncoding="UTF-8"/g' /etc/tomcat8/server.xml
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   + ln -sf /usr/share/java/apache-commons-pool.jar /usr/share/tomcat8/lib/
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:50.502Z] INFO  [2840]  - [Initialization/PreInitStage0/PreInitHook/03processmgrsetup.sh] : Starting activity...
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:50.600Z] INFO  [2840]  - [Initialization/PreInitStage0/PreInitHook/03processmgrsetup.sh] : Completed activity. Result:
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   ++ /opt/elasticbeanstalk/bin/get-config container -k tomcat_version
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   + TOMCAT_VERSION=8.5
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   + '[' 8.5 == 8.5 ']'
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   + TOMCAT_VERSION=8
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   + MONIT_TOMCAT_CONF=monit-tomcat8.conf
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   + /bin/cp -f /opt/elasticbeanstalk/containerfiles/monit-tomcat8.conf /etc/monit.d/
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   + chmod 0600 /etc/monit.d/monit-tomcat8.conf
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:50.600Z] INFO  [2840]  - [Initialization/PreInitStage0/PreInitHook] : Completed activity. Result:
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/preinit.
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:50.601Z] INFO  [2840]  - [Initialization/PreInitStage0] : Completed activity. Result:
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   Initialization - Command CMD-PreInit stage 0 completed
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:50.601Z] INFO  [2840]  - [Initialization/AddonsAfter] : Starting activity...
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:50.601Z] INFO  [2840]  - [Initialization/AddonsAfter] : Completed activity.
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:50.601Z] INFO  [2840]  - [Initialization] : Completed activity. Result:
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]:   Initialization - Command CMD-PreInit succeeded
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: ******************* End of taillog *******************
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: 
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: 
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:52.149Z] Tailing /var/log/eb-tools.log
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: 
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: ******************* eb-tools taillog *******************
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: ***eb-tools is not available yet.***
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: ******************* End of taillog *******************
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: 
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: 
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:52.151Z] Tailing /var/log/eb-version-deployment.log
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: 
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: ******************* eb-version-deployment taillog *******************
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: ***eb-version-deployment is not available yet.***
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: ******************* End of taillog *******************
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: 
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: 
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:52.163Z] Tailing /var/log/cfn-init.log
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: 
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: ******************* cfn-init taillog *******************
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: 2020-04-14 22:31:44,578 [INFO] -----------------------Starting build-----------------------
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: 2020-04-14 22:31:44,585 [INFO] Running configSets: _OnInstanceBoot
+Apr 14 22:31:52 ip-172-31-33-212 [eb-cfn-init]: 2020-04-14 22:31:44,588 [INFO] Running configSet _OnInstanceBoot
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 2020-04-14 22:31:44,593 [INFO] Running config AWSEBBaseConfig
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 2020-04-14 22:31:44,599 [INFO] Command clearbackupfiles succeeded
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 2020-04-14 22:31:44,605 [INFO] Running config AWSEBMessageOfTheDay
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 2020-04-14 22:31:44,609 [INFO] Command 01clearoriginal succeeded
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 2020-04-14 22:31:44,614 [INFO] Command 02createbanner succeeded
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 2020-04-14 22:31:44,625 [INFO] Command 03updatebanner succeeded
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 2020-04-14 22:31:44,633 [INFO] Running config AWSEBULimitConfig
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 2020-04-14 22:31:44,637 [INFO] Command 00removebackup succeeded
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 2020-04-14 22:31:44,643 [INFO] Running config AWSEBCfnHupEndpointOverride
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 2020-04-14 22:31:44,647 [INFO] Command clearbackupfiles succeeded
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 2020-04-14 22:31:44,652 [INFO] Running config Infra-InstallContainerHooksPkg
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 2020-04-14 22:31:44,656 [INFO] Command 00mkdir succeeded
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 2020-04-14 22:31:44,690 [INFO] Command 01download_container_hooks succeeded
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 2020-04-14 22:31:44,699 [INFO] Command 02install_container_hooks succeeded
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 2020-04-14 22:31:44,702 [INFO] Command 03cleanup succeeded
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 2020-04-14 22:31:44,707 [INFO] Running config Infra-WriteLeaderTestScript
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 2020-04-14 22:31:44,713 [INFO] Running config Infra-WriteTailLogsConf
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 2020-04-14 22:31:44,718 [INFO] Running config Infra-WriteSystemTailLogsConf
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 2020-04-14 22:31:44,723 [INFO] Running config Infra-WriteBundleLogsConf
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 2020-04-14 22:31:44,729 [INFO] Running config Infra-WritePublishLogsConf
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 2020-04-14 22:31:44,733 [INFO] Running config Infra-WritePublishLogsCron
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 2020-04-14 22:31:44,734 [INFO] ConfigSets completed
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 2020-04-14 22:31:44,735 [INFO] -----------------------Build complete-----------------------
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: ******************* End of taillog *******************
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:52.173Z] Tailing /var/log/cfn-hup.log
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: ******************* cfn-hup taillog *******************
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 2020-04-14 22:31:45,964 [DEBUG] CloudFormation client initialized with endpoint https://cloudformation.ap-south-1.amazonaws.com
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 2020-04-14 22:31:45,965 [DEBUG] SQS client initialized with endpoint https://sqs.ap-south-1.amazonaws.com
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 2020-04-14 22:31:45,965 [DEBUG] CloudFormation client initialized with endpoint https://cloudformation.ap-south-1.amazonaws.com
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 2020-04-14 22:31:45,965 [DEBUG] Enabled single threading mode.
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 2020-04-14 22:31:45,965 [DEBUG] Creating /var/lib/cfn-hup/data
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 2020-04-14 22:31:45,974 [INFO] No umask value specified in config file. Using the default one: 022
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 2020-04-14 22:31:45,999 [DEBUG] Registering listener i-02958b133c9bba6cc for stack arn:aws:cloudformation:ap-south-1:439863013922:stack/awseb-e-xxy4z56gpx-stack/82ad8090-7e9f-11ea-9738-0695265dabc8
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 2020-04-14 22:31:46,365 [INFO] Refreshing listener credentials
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 2020-04-14 22:31:46,366 [DEBUG] Get listener credentials for listener i-02958b133c9bba6cc in stack arn:aws:cloudformation:ap-south-1:439863013922:stack/awseb-e-xxy4z56gpx-stack/82ad8090-7e9f-11ea-9738-0695265dabc8
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 2020-04-14 22:31:46,483 [INFO] Scheduling next credential refresh in 7200 seconds
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 2020-04-14 22:31:46,484 [DEBUG] Receiving messages for queue https://sqs.ap-south-1.amazonaws.com/033451322671/ac53f458c340f4e4782888fe16208f708e6eccfa6e787fa93a72b837005b1cb9
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: ******************* End of taillog *******************
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: [2020-04-14T22:31:52.176Z] Completed EB Bootstrapping Script.
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: 14 Apr 22:31:53 ntpdate[2681]: adjust time server 49.207.184.110 offset -0.191557 sec
+Apr 14 22:31:53 ip-172-31-33-212 ntpd[3085]: ntpd 4.2.8p12@1.3728-o Fri May  3 15:36:34 UTC 2019 (1): Starting
+Apr 14 22:31:53 ip-172-31-33-212 ntpd[3085]: Command line: ntpd -u ntp:ntp -p /var/run/ntpd.pid -g
+Apr 14 22:31:53 ip-172-31-33-212 [eb-cfn-init]: Starting ntpd: [  OK  ]#015
+Apr 14 22:31:53 ip-172-31-33-212 ntpd[3087]: proto: precision = 0.625 usec (-21)
+Apr 14 22:31:53 ip-172-31-33-212 ntpd[3087]: Listen and drop on 0 v4wildcard 0.0.0.0:123
+Apr 14 22:31:53 ip-172-31-33-212 ntpd[3087]: Listen normally on 1 lo 127.0.0.1:123
+Apr 14 22:31:53 ip-172-31-33-212 ntpd[3087]: Listen normally on 2 eth0 172.31.33.212:123
+Apr 14 22:31:53 ip-172-31-33-212 ntpd[3087]: Listening on routing socket on fd #19 for interface updates
+Apr 14 22:31:53 ip-172-31-33-212 ntpd[3087]: kernel reports TIME_ERROR: 0x41: Clock Unsynchronized
+Apr 14 22:31:53 ip-172-31-33-212 ntpd[3087]: kernel reports TIME_ERROR: 0x41: Clock Unsynchronized
+Apr 14 22:31:54 ip-172-31-33-212 dhclient[2203]: XMT: Solicit on eth0, interval 15880ms.
+Apr 14 22:31:55 ip-172-31-33-212 ntpd[3087]: Soliciting pool server 95.216.154.135
+Apr 14 22:31:56 ip-172-31-33-212 ntpd[3087]: Soliciting pool server 131.211.8.244
+Apr 14 22:31:57 ip-172-31-33-212 ntpd[3087]: Soliciting pool server 195.186.1.100
+Apr 14 22:31:58 ip-172-31-33-212 ntpd[3087]: Soliciting pool server 198.255.68.106
+Apr 14 22:31:59 ip-172-31-33-212 ntpd[3087]: Soliciting pool server 2a01:4f9:c010:1625::1
+Apr 14 22:32:00 ip-172-31-33-212 ntpd[3087]: receive: Unexpected origin timestamp 0xe240b860.a05eb03d does not match aorg 0000000000.00000000 from server@95.216.154.135 xmt 0xe240b860.80b3ef29
+Apr 14 22:32:09 ip-172-31-33-212 dhclient[2203]: XMT: Solicit on eth0, interval 33220ms.
+Apr 14 22:32:16 ip-172-31-33-212 init: xray main process (2246) terminated with status 1
+Apr 14 22:32:20 ip-172-31-33-212 init: healthd main process (2751) terminated with status 1
+Apr 14 22:32:20 ip-172-31-33-212 su: (to healthd) root on none
+Apr 14 22:32:43 ip-172-31-33-212 dhclient[2203]: XMT: Solicit on eth0, interval 67920ms.
+Apr 14 22:33:51 ip-172-31-33-212 dhclient[2203]: XMT: Solicit on eth0, interval 124900ms.
+Apr 14 22:35:56 ip-172-31-33-212 dhclient[2203]: XMT: Solicit on eth0, interval 117300ms.
+Apr 14 22:37:07 ip-172-31-33-212 ntpd[3087]: kernel reports TIME_ERROR: 0x41: Clock Unsynchronized
+Apr 14 22:37:53 ip-172-31-33-212 dhclient[2203]: XMT: Solicit on eth0, interval 114780ms.
+Apr 14 22:39:48 ip-172-31-33-212 dhclient[2203]: XMT: Solicit on eth0, interval 122210ms.
+Apr 14 22:41:04 ip-172-31-33-212 ntpd[3087]: 198.255.68.106 local addr 172.31.33.212 -> <null>
+Apr 14 22:41:45 ip-172-31-33-212 init: healthd main process (3614) terminated with status 1
+Apr 14 22:41:45 ip-172-31-33-212 su: (to healthd) root on none
+Apr 14 22:41:50 ip-172-31-33-212 dhclient[2203]: XMT: Solicit on eth0, interval 118840ms.
+Apr 14 22:43:49 ip-172-31-33-212 dhclient[2203]: XMT: Solicit on eth0, interval 123260ms.
+Apr 14 22:45:53 ip-172-31-33-212 dhclient[2203]: XMT: Solicit on eth0, interval 116960ms.
+Apr 14 22:47:50 ip-172-31-33-212 dhclient[2203]: XMT: Solicit on eth0, interval 126610ms.

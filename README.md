@@ -1,3 +1,5 @@
+These are the content of TestWS
+
 I had created this in order to understand the autoconfiguration concept  
 Both project need to get executed in order to understand the concept
 
